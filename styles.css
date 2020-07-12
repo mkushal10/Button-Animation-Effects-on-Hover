@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #262626;
+}
+
+a{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	width: 200px;
+	height: 60px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 60px;
+	font-family: sans-serif;
+	color: white;
+	background: linear-gradient(90deg,#03a9f5,#f441a3,#ffeb3b,#13a9f4);
+	border-radius: 30px;
+	background-size: 400px;
+}
+
+a:hover{
+	animation: anim 8s linear infinite
+}
+
+@keyframes anim{
+	0%{background-position: 0px}
+	100%{background-position: 900px}
+}
